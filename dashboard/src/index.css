@@ -842,9 +842,3 @@ hr {
   background-color: rgb(212, 212, 212);
 }
 
-@media (orientation: portrait) {
-  * {
-    height: 400px;
-    width: 500px;
-  }
-}
