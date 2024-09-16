@@ -18,11 +18,11 @@ code {
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  height: 90vh;
+  /* height: 90vh;
   display: flex;
   align-items: center;
-  box-sizing: border-box;
-}
+  box-sizing: border-box;*/
+} 
 
 .content {
   flex-basis: 68%;
