@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 code {
@@ -14,14 +19,10 @@ code {
 
 .dashboard-container {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  /* height: 90vh;
+  height: 90vh;
   display: flex;
   align-items: center;
-  box-sizing: border-box;*/
+  box-sizing: border-box;
 } 
 
 .content {
@@ -847,40 +848,40 @@ hr {
 }
 
 @media (min-width: 475px) {
-  .dashboard-container {
+  .body {
     max-width: 475px;
   }
 }
 
 
 @media (min-width: 640px) {
-  .dashboard-container {
+  .body {
     max-width: 640px;
   }
 }
 
 
 @media (min-width: 768px) {
-  .dashboard-container {
+  .body {
     max-width: 768px;
   }
 }
 
 
 @media (min-width: 1024px) {
-  .dashboard-container {
+  .body {
     max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  .dashboard-container {
+  .body {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1536px) {
-  .dashboard-container {
+  .body {
     max-width: 1536px;
   }
 }
