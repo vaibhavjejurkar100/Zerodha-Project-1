@@ -14,6 +14,10 @@ code {
 
 .dashboard-container {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -842,9 +846,43 @@ hr {
   background-color: rgb(212, 212, 212);
 }
 
-@media (max-width: 600px) {
-  * {
-    padding: 10px;
-    font-size: 18px;
+@media (min-width: 475px) {
+  .dashboard-container {
+    max-width: 475px;
   }
 }
+
+
+@media (min-width: 640px) {
+  .dashboard-container {
+    max-width: 640px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .dashboard-container {
+    max-width: 768px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .dashboard-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .dashboard-container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .dashboard-container {
+    max-width: 1536px;
+  }
+}
+
+
