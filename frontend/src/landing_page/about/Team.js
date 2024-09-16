@@ -29,7 +29,7 @@ function Team() {
 
           <p>Playing basketball is his zen.</p>
 
-          <p>Connect on <a style={{ textDecoration: "none" }}href="">Homepage</a> / <a style={{textDecoration: "none"}} href="">TradingQnA</a> / <a style={{textDecoration: "none"}}href="">Twitter</a></p>
+          <p>Connect on <a href= "https://nithinkamath.me" style={{ textDecoration: "none" }}>Homepage</a> / <a style={{textDecoration: "none"}} href="">TradingQnA</a> / <a href="https://x.com/nithin0dha?lang=en" style={{textDecoration: "none"}}>Twitter</a></p>
         </div>
       </div>
     </div>

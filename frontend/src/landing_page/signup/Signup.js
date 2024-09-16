@@ -1,5 +1,5 @@
 import React from "react";
-
+import TextField from '@mui/material/TextField';
 function Signup() {
   return (
     <div className="container" id="signup">
@@ -15,7 +15,7 @@ function Signup() {
         <div className="col-4 mt-5">
           <h2 className="mt-5 pt-4">Signup Now</h2>
           <p>Or track your existing application.</p>
-          <input placeholder="mobile number"></input>
+          <TextField id="outlined-basic" label="mobile number" varient="outlined" />
           <p className="mt-4" style={{ fontSize: "12px" }}>
             You will receive an OTP on your number
           </p>
