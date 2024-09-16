@@ -841,3 +841,10 @@ hr {
 .action:hover {
   background-color: rgb(212, 212, 212);
 }
+
+@media (orientation: portrait) {
+  * {
+    min-width: 300px;
+    max-width: 500px;
+  }
+}
