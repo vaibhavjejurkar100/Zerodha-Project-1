@@ -844,6 +844,6 @@ hr {
 
 @media (orientation: portrait) {
   * {
-    width: 400px;
+    width: 500px;
   }
 }
