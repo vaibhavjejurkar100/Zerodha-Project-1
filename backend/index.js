@@ -9,7 +9,7 @@ const { HoldingsModel } = require("./model/HoldingsModel");
 
 const { PositionsModel } = require("./model/PositionsModel");
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || "https://zerodha-project-1-1-wqmd.onrender.com/allHoldings";
 const uri = process.env.MONGO_URL;
 
 const app = express();
