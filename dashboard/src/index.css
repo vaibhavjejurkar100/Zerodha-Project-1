@@ -5,16 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 .dashboard-container {
@@ -44,16 +43,16 @@ code {
 .funds p {
   font-size: 0.8rem;
   color: rgb(179, 179, 179);
-  margin-right: 8px;
+  margin-right: .8rem;
 }
 
 .btn {
   text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 2px;
+  padding: 1.0rem 2.0rem;
+  border-radius: .2rem;
   color: #fff;
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-right: .2rem;
+  margin-left: .2rem;
 }
 
 .btn-green {
@@ -88,7 +87,7 @@ code {
   color: rgb(66, 56, 56);
   padding: 0;
   margin: 0;
-  margin-right: 10px;
+  margin-right: 1.0rem;
 }
 
 .col span p {
@@ -165,13 +164,13 @@ code {
 }
 
 .order-table tr {
-  border-top: 1px solid #f1f1f1;
-  border-bottom: 1px solid #f1f1f1;
+  border-top: .1rem solid #f1f1f1;
+  border-bottom: .1rem solid #f1f1f1;
 }
 
 .order-table th {
   text-align: right;
-  padding: 15px 10px;
+  padding: 1.5rem 1.0rem;
   color: rgb(145, 145, 145);
   font-weight: 300;
   font-size: 0.8rem;
@@ -197,7 +196,7 @@ code {
 }
 
 .order-table td {
-  padding: 10px 10px;
+  padding: 1.0rem 1.0rem;
   text-align: right;
   font-weight: 400;
   font-size: 0.9rem;
@@ -257,7 +256,7 @@ code {
 .menu-container {
   flex-basis: 68%;
   height: 100%;
-  padding: 10px 20px;
+  padding: 1.0rem 2.0rem;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -265,8 +264,8 @@ code {
 }
 
 .logo {
-  width: 30px;
-  height: 20px;
+  width: 3.0rem;
+  height: 2.0rem;
 }
 
 .menus {
@@ -281,7 +280,7 @@ code {
 
 .menus li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 3.0rem;
   text-decoration: none;
 }
 
@@ -297,19 +296,19 @@ code {
 
 hr {
   border-left: 0.8px solid rgb(243, 242, 242);
-  height: 30px;
+  height: 3.0rem;
 }
 
 .profile {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 20px;
+  margin-left: 2.0rem;
 }
 
 .profile .avatar {
-  width: 30px;
-  height: 30px;
+  width: 3.0rem;
+  height: 3.0rem;
   text-align: center;
   position: relative;
   font-size: 0.7rem;
@@ -321,7 +320,7 @@ hr {
   text-align: center;
   display: flex;
   background: rgb(252, 229, 252);
-  margin-right: 8px;
+  margin-right: .8rem;
 }
 
 .profile .username {
@@ -372,8 +371,8 @@ hr {
 .btn {
   text-decoration: none;
   background: rgb(77, 77, 248);
-  padding: 10px 20px;
-  border-radius: 2px;
+  padding: 1.0rem 2.0rem;
+  border-radius: .2rem;
   color: #fff;
   margin-top: 2%;
 }
@@ -401,7 +400,7 @@ hr {
 
 .order-table th {
   text-align: right;
-  padding: 15px 10px;
+  padding: 1.5rem 1.0rem;
   color: rgb(145, 145, 145);
   font-weight: 300;
   font-size: 0.8rem;
@@ -417,7 +416,7 @@ hr {
     color: rgb(233, 120, 120);
     width: 50%;
     text-align: center;
-    border-radius: 2px;
+    border-radius: .2rem;
 }
 
 .order-table tr td:last-child {
@@ -425,7 +424,7 @@ hr {
 }
 
 .order-table td {
-  padding: 10px 10px;
+  padding: 1.0rem 1.0rem;
   text-align: right;
   font-weight: 400;
   font-size: 0.9rem;
@@ -486,14 +485,14 @@ hr {
   font-size: 1.5rem;
   font-weight: 400;
   color: rgb(83, 83, 83);
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
 
 .divider {
   border: none;
   background: #d1d1d1;
-  height: 1px;
-  margin: 20px 0;
+  height: .1rem;
+  margin: 2.0rem 0;
   margin-bottom: 5%;
 }
 
@@ -518,7 +517,7 @@ hr {
   color: rgb(112, 112, 112);
   padding: 0;
   margin: 0;
-  margin-right: 10px;
+  margin-right: 1.0rem;
 }
 
 .data {
@@ -550,13 +549,13 @@ hr {
 
 .data hr {
   border-left: 0.6px solid rgb(243, 242, 242);
-  height: 70px;
+  height: 7.0rem;
 }
 
 .data .second p {
   font-size: 0.8rem;
   color: rgb(136, 136, 136);
-  margin-bottom: 10px;
+  margin-bottom: 1.0rem;
   white-space: nowrap;
 }
 
@@ -576,7 +575,7 @@ hr {
   height: 10vh;
   display: flex;
   align-items: center;
-  box-shadow: 0px 0px 4px 2px rgb(236, 235, 235);
+  box-shadow: 0px 0px .4rem .2rem rgb(236, 235, 235);
   box-sizing: border-box;
   z-index: 9;
 }
@@ -584,8 +583,8 @@ hr {
 .indices-container {
   flex-basis: 32%;
   height: 100%;
-  padding: 10px 20px;
-  border-right: 1px solid rgb(224, 224, 224);
+  padding: 1.0rem 2.0rem;
+  border-right: .1rem solid rgb(224, 224, 224);
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -609,7 +608,7 @@ hr {
 
 .nifty > *,
 .sensex > * {
-  margin-right: 8px;
+  margin-right: .8rem;
 }
 
 .index {
@@ -641,7 +640,7 @@ hr {
   flex-basis: 32%;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: 0px 0px 4px 1px rgb(236, 235, 235);
+  box-shadow: 0px 0px .4rem .1rem rgb(236, 235, 235);
   overflow-y: auto;
   position: relative;
 }
@@ -657,7 +656,7 @@ hr {
   width: 100%;
   height: 6%;
   border: none;
-  padding: 15px 20px;
+  padding: 1.5rem 2.0rem;
   font-size: 0.9rem;
   font-weight: 400;
   color: rgb(241, 241, 241);
@@ -666,7 +665,7 @@ hr {
 
 .counts {
   position: absolute;
-  right: 20px;
+  right: 2.0rem;
   font-size: 0.9rem;
   font-weight: 400;
   color: rgb(177, 177, 177);
@@ -679,7 +678,7 @@ hr {
 
 .list li {
   border-bottom: 0.8px solid rgb(235, 234, 234);
-  padding: 12px 10px 12px 14px;
+  padding: 1.2rem 1.0rem 1.2rem 1.4rem;
   position: relative;
 }
 
@@ -699,7 +698,7 @@ hr {
 }
 
 .item-info > * {
-  margin-right: 8px;
+  margin-right: .8rem;
 }
 
 .item-info span:nth-child(1) {
@@ -709,7 +708,7 @@ hr {
 
 .item-info span:nth-child(2) {
   color: rgb(223, 73, 73);
-  margin-right: 12px;
+  margin-right: 1.2rem;
   flex: 2;
 }
 
@@ -730,11 +729,11 @@ hr {
 }
 
 .actions span button {
-  width: 40px;
-  height: 30px;
+  width: 4.0rem;
+  height: 3.0rem;
   border-radius: 4px;
   text-align: center;
-  margin-right: 8px;
+  margin-right: .8rem;
   cursor: pointer;
 }
 
@@ -772,8 +771,8 @@ hr {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  bottom: 1px;
-  padding: 20px 20px 20px 0;
+  bottom: .1rem;
+  padding: 2.0rem 2.0rem 2.0rem 0;
   left: 0;
   border: 1px solid rgb(231, 231, 231);
   z-index: 5;
@@ -786,8 +785,8 @@ hr {
 
 .watchlist-number ul li {
   display: inline-block;
-  padding: 10px 20px;
-  border-right: 1px solid rgb(231, 231, 231);
+  padding: 1.0rem 2.0rem;
+  border-right: .1rem solid rgb(231, 231, 231);
 }
 
 .watchlist-number ul li:nth-child(1) {
@@ -847,43 +846,14 @@ hr {
   background-color: rgb(212, 212, 212);
 }
 
-@media (min-width: 475px) {
-  .body {
-    max-width: 475px;
+@media(max-width: 998px){
+ html {
+      font-size: 55%;
   }
 }
 
-
-@media (min-width: 640px) {
-  .body {
-    max-width: 640px;
-  }
-}
-
-
-@media (min-width: 768px) {
-  .body {
-    max-width: 768px;
-  }
-}
-
-
-@media (min-width: 1024px) {
-  .body {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .body {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .body {
-    max-width: 1536px;
-  }
-}
-
-
+@media(max-width: 768px){
+  html {
+       font-size: 45%;
+   }
+ }
