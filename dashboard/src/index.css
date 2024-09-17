@@ -857,9 +857,7 @@ hr {
        font-size: 45%;
    }
    .menu-container {
-  
-    padding: 1.0rem 2.0rem;
-    display: flex-wrap;
+    display: wrap;
     justify-content: space-between;
   }
  } 
