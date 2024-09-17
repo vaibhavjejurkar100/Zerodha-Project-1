@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
 .dashboard-container {
   width: 100%;
@@ -845,8 +845,8 @@ hr {
 .action:hover {
   background-color: rgb(212, 212, 212);
 }
-
-@media(max-width: 998px){
+ 
+ /* @media(max-width: 998px){
  html {
       font-size: 55%;
   }
@@ -856,5 +856,4 @@ hr {
   html {
        font-size: 45%;
    }
- }
-
+ }  */
