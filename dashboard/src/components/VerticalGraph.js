@@ -1,4 +1,5 @@
 import React from "react";
+import "./mediaQueries.css";
 import {
   Chart as ChartJS,
   CategoryScale,
