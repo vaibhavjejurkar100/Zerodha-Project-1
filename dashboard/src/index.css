@@ -857,12 +857,9 @@ hr {
        font-size: 45%;
    }
    .menu-container {
-    flex-basis: 68%;
-    height: 100%;
+  
     padding: 0.5rem 1.0rem;
-    box-sizing: border-box;
-    display: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex-wrap;
+    justify-content: space-between;
   }
  } 
