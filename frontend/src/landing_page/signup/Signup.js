@@ -1,5 +1,6 @@
 import React from "react";
 import TextField from '@mui/material/TextField';
+
 function Signup() {
   return (
     <div className="container" id="signup">
@@ -8,7 +9,7 @@ function Signup() {
           <img
             className="mt-5 p-5"
             src="media/images/signup.png"
-            style={{ width: "115%", marginLeft: "50px" }}
+            style={{ width: "115%", marginLeft: "5.0rem" }}
           />
         </div>
         <div className="col-2"></div>
@@ -16,13 +17,13 @@ function Signup() {
           <h2 className="mt-5 pt-4">Signup Now</h2>
           <p>Or track your existing application.</p>
           <TextField id="outlined-basic" label="mobile number" varient="outlined" />
-          <p className="mt-4" style={{ fontSize: "12px" }}>
+          <p className="mt-4" >
             You will receive an OTP on your number
           </p>
-          <button className="btn btn-primary" style={{ width: "150px" }}>
+          <button className="btn btn-primary" style={{ width: "15.0rem" }}>
             Continue
           </button>
-          <p className="mt-3" style={{ fontSize: "12px" }}>
+          <p className="mt-3">
             <a style={{ textDecoration: "none" }} href="">
               Want to open an NRI account?
             </a>

@@ -36,7 +36,7 @@ function Footer() {
                 <br></br>
             </div>
           </div>
-          <div className="col-2 p-2" style={{marginLeft: "60px"}}>
+          <div className="col-2 p-2" style={{marginLeft: "5.0rem"}}>
             <p className="fs-5">Support</p>
             <a href="" className="text-muted" style={{textDecoration: "none"}}>Contact US</a>
             <br></br>
@@ -57,7 +57,7 @@ function Footer() {
             <a href="" className="text-muted" style={{textDecoration: "none"}}>Status of your complaints</a>
             <br></br>
           </div>
-          <div className="col-2 p-2" style={{marginLeft: "80px"}}>
+          <div className="col-1 p-2" style={{marginLeft: "5.0rem"}}>
             <p className="fs-5">Account</p>
             <a href="" className="text-muted" style={{textDecoration: "none"}}>Open an account</a>
             <br></br>
@@ -67,7 +67,7 @@ function Footer() {
         </div>
         <div className="row">
           <div className="col-12">
-        <div className="mt-5 text muted" style={{ fontSize: "12px" }}>
+        <div className="mt-5 text muted" style={{fontSize: "0.7rem"}}>
           <p>
             Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
             no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function NotFound() {
     return ( 
         <div className='container p-5 mb-5'>

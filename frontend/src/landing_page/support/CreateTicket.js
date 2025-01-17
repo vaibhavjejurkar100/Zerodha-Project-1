@@ -4,7 +4,7 @@ function CreateTicket() {
     return ( 
         <div className='container'>
             <div className='row mt-5'>
-            <h4 className='mb-5' style={{marginLeft: "100px"}}>To create a ticket, select a relevant topic</h4>
+            <h4 className='mb-5' style={{marginLeft: "10.0rem"}}>To create a ticket, select a relevant topic</h4>
                 <div className='col-1'></div>
                 <div className='col-3'>
                     <h4 className='mb-3'><i class="fa fa-plus-circle" aria-hidden="true"></i>Account Opening</h4>
@@ -15,7 +15,7 @@ function CreateTicket() {
                     <p><a href="" style={{textDecoration: "none"}}>Company, Partnership and HUF </a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Non Resident Indian (NRI)</a></p>
                 </div>
-                <div className='col-3' style={{marginLeft: "50px"}}>
+                <div className='col-3' style={{marginLeft: "5.0rem"}}>
                     <h4 className='mb-3'><i class="fa fa-plus-circle" aria-hidden="true"></i>Your Zerodha Account</h4>
                     <p><a href="" style={{textDecoration: "none"}}>Login credentials</a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Your Profile</a></p>
@@ -24,7 +24,7 @@ function CreateTicket() {
                     <p><a href="" style={{textDecoration: "none"}}>Nomination</a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Transfer and conversion of shares</a></p>
                 </div>
-                <div className='col-3' style={{marginLeft: "50px"}}>
+                <div className='col-3' style={{marginLeft: "5.0rem"}}>
                     <h4 className='mb-3'><i class="fa fa-plus-circle" aria-hidden="true"></i>Trading and Markets</h4>
                     <p><a href="" style={{textDecoration: "none"}}>Trading FAQs</a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Kite</a></p>
@@ -42,7 +42,7 @@ function CreateTicket() {
                     <p><a href="" style={{textDecoration: "none"}}>Adding bank accounts</a></p>
                     <p><a href="" style={{textDecoration: "none"}}>eMandates</a></p>
                 </div>
-                <div className='col-3' style={{marginLeft: "50px"}}>
+                <div className='col-3' style={{marginLeft: "5.0rem"}}>
                     <h4 className='mb-3'><i class="fa fa-plus-circle" aria-hidden="true"></i>Console</h4>
                     <p><a href="" style={{textDecoration: "none"}}>IPO</a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Portfolio</a></p>
@@ -51,7 +51,7 @@ function CreateTicket() {
                     <p><a href="" style={{textDecoration: "none"}}>Referral program </a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Non Resident Indian (NRI)</a></p>
                 </div>
-                <div className='col-3' style={{marginLeft: "50px"}}>
+                <div className='col-3' style={{marginLeft: "5.0rem"}}>
                     <h4 className='mb-3'><i class="fa fa-plus-circle" aria-hidden="true"></i>Coin</h4>
                     <p><a href="" style={{textDecoration: "none"}}>Understanding mutual funds and Coin</a></p>
                     <p><a href="" style={{textDecoration: "none"}}>Coin app</a></p>

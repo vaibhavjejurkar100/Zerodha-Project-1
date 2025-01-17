@@ -1,4 +1,5 @@
 import React from "react";
+import "./mediaQueries.css";
 
 import { positions } from "../data/data";
 

@@ -13,7 +13,7 @@ code {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
 }
 
 .dashboard-container {
@@ -856,8 +856,4 @@ hr {
   html {
        font-size: 45%;
    }
-   .menu-container {
-    display: wrap;
-    justify-content: space-between;
-  }
  } 

@@ -15,7 +15,7 @@ function Hero() {
                     <a href=''>Kite user manual</a>
                 </div>
                 <div className='col-5 p-3'>
-                    <h6 className='mt-5' style={{marginLeft: "300px"}}><a href="">Track Tickets</a></h6>
+                    <h6 className='mt-5' style={{marginLeft: "30.0rem"}}><a href="">Track Tickets</a></h6>
                     <h4 className='mt-5 pt-5'>Featured</h4>
                     <h6 className='p-3'>1. <a href="">Surveillance measure on scrips - July 2024</a></h6>
                     <h6 className='p-3 pt-0'>2. <a href="">Latest Intraday leverages and Square-off timings</a></h6>
