@@ -19,6 +19,11 @@ code {
 
 .nav-link{
   margin-left: 40px;
+  /* transition: 2s 2s ease-in; */
+}
+
+.nav-link:checked{
+  transition: 2s 2s ease-in;
 }
 
 #supportHero{
@@ -50,7 +55,16 @@ code {
  @media(max-width: 998px){
   html{
        font-size: 55%; 
+       padding: 0;
+       margin: 0;
+
+       
    }
+   /* img{
+    margin-top: 50px;
+   
+   } */
+   
  }
  
  @media(max-width: 768px){
@@ -60,10 +74,24 @@ code {
     }
     img {
       width: 70%;
+      /* margin-top: 20px; */
      } 
-     img.svg {
-      width: 50%;
+     /* img {
+      margin-top: 50px;
+     } */
+     img{
+      margin-top: 40px;
+      margin-bottom: 0;
+      width: 80%;
+      padding: 0; 
+      
      }
+
+     /* .space {
+      margin-bottom: 0;
+      margin: 0;
+      padding: 0;
+     } */
      .head {
       margin-bottom: 10px;
      }

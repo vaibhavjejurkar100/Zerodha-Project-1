@@ -22,7 +22,7 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <form class="d-flex" role="search">
                         <ul class="navbar-nav mb-lg-0">
-                            <li class="nav-item">
+                            {/* <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" to="/signup">Signup</Link>
                             </li>
                             <li class="nav-item">
@@ -36,6 +36,22 @@ function Navbar() {
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" to="/support">Support</Link>
+                            </li> */}
+
+                            <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to="/hero">Hero</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to="/awards">Awards</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to="/education">Education</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to="/pricing">Pricing</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to="/stats">Stats</Link>
                             </li>
                         </ul>
                     </form>

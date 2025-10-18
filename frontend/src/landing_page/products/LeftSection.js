@@ -20,7 +20,7 @@ function LeftSection({
         <div className="col-5 mt-5">
           <h1 className="mt-5 mb-4">{productName}</h1>
           <p>{productDescription}</p>
-          <div>
+          <div className="abc">
             <a href={tryDemo} style={{ textDecoration: "none" }}>
               Try Demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,10 +30,10 @@ function LeftSection({
           </div>
           <br></br>
           <div>
-            <a href={googlePlay} style={{ textDecoration: "none" }}>
+            <a className="space" href={googlePlay} style={{ textDecoration: "none" }}>
                <img src="media/images/googlePlayBadge.svg" />
-            </a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href={appStore} style={{ textDecoration: "none" }}>
+            </a>
+            <a className="space" href={appStore} style={{ textDecoration: "none" }}>
               <img src="media/images/appstoreBadge.svg" /> 
             </a>
           </div>
